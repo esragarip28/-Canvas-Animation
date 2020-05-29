@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+        }
+        canvas{
+            background-color: white;
+           /* background-image: url("l1.jpg");*/
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position:  top;
+            animation: animasyon 10s infinite;
+        }
+
+        @keyframes animasyon{
+            0%   {background-image: url("images/li1.jpg");}
+            8%{background-image: url("images/li8 (2).jpg");}
+            15%  {background-image: url("images/li2.jpg");}
+            25%  {background-image: url("images/li3.jpg");}
+            35% {background-image: url("images/li4.jpg");}
+            45%   {background-image: url("images/li6.jpg");}
+            55%  {background-image: url("images/li7.jpg");}
+            65%  {background-image: url("images/li8.jpg");}
+            75% {background-image: url("images/li9.jpg");}
+            80%  {background-image: url("images/li10.jpg");}
+            95%  {background-image: url("images/li5.jpg");}
+            100% {background-image: url("images/li5.jpg");}
+        }
+
+
+    </style>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<canvas>
+
+</canvas>
+<script src="canvas.js">
+    c.setTimeout(1000);
+
+</script>
+
+
+</body>
+</html>
